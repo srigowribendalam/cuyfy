@@ -1,0 +1,106 @@
+.Contact-page-container {
+  .Contact-Banner-body {
+    background-image: url("../../Assets/Home/curve.png");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    background-color: #fff;
+    height: auto;
+  padding-bottom: 10%;
+    .Contact-Banner-img {
+      margin-left: 10%;
+      margin-top: 8%;
+      img {
+        width: 50%;
+      }
+    }
+    .Contact-Header{
+        .Headerbody .HeaderlogoContainer img {
+            margin-top: -5%;
+            /* min-width: 0px; */
+        }
+    }
+    .Contact-Banner-content {
+      margin-top: 5%;
+      h3 {
+        letter-spacing: 0px;
+        color: #a2a2a2;
+        text-transform: capitalize;
+        opacity: 1;
+        text-align: left;
+        line-height: 2.5;
+        font-size: 1.3rem;
+      }
+      img{
+          width: 20px;
+          margin-right: 2%;
+          object-fit: cover;
+      }
+    }
+    .Contact-form-container{
+  width: 70%;
+  margin-top: 6%;
+  position: relative;
+  left:6%;
+  h2{
+    text-align: left;
+   font-size: 4.2rem;
+    color: #6127FA;
+    opacity: 1;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  h3{
+    margin-top: 3%;
+      color:#777777;
+      font-size: 1.6rem;
+  }
+  input.ant-input {
+ 
+    margin: 3% 0%;
+    height: 68px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 0px solid #ffffff !important;
+    border-radius: 20px;
+    opacity: 1;
+  }
+  .ant-input:placeholder-shown {
+    text-overflow: ellipsis;
+ font-size: 1.5rem;
+  
+  }
+  .Contact-form-Button{
+    text-align: center;
+  padding-top: 18%;
+  button {
+    border-radius: 30px;
+    font-weight: 500;
+width: 150px;;
+ height: 50px;
+    background-color: #6328ff;
+    border-color: #6328ff;
+    font-size: 1.8rem;
+    color:#ffff;
+
+    &:hover {
+      background-color: #6328ff;
+      border-color: #6328ff;
+      box-shadow: unset;
+    }
+    &:active {
+      background-color: #6328ff;
+      border-color: #6328ff;
+      box-shadow: unset;
+    }
+    &:focus {
+      background-color: #6328ff;
+      border-color: #6328ff;
+      box-shadow: unset;
+    }
+  }
+}
+    }
+  }
+}

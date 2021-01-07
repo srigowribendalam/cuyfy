@@ -1,0 +1,97 @@
+@import "../../../../Scss/base/_colors";
+.Headerbody {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 3%;
+  .HeaderlogoContainer {
+    padding-right: 12%;
+    img {
+      width: 200px;
+      
+    }
+  }
+  .HeaderFields {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    width: 65%;
+
+    .navbar-item {
+      font-weight: 600;
+      // margin: 0 4%;
+      color: #777777;
+  
+    }
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border-right: 0px solid #e8e8e8;
+    }
+    a.navbar-item.is-active {
+      border-bottom: 4px solid #6127fa;
+      width: 12%;
+      transition-property:border-bottom;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+
+    .line {
+      display: inline;
+      position: relative;
+      overflow: hidden;
+    }
+    .line:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      width: 0;
+      bottom: -5px;
+      background: #000;
+      height: 4px;
+      transition-property: width;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+    .line:hover:after,
+    .line:focus:after,
+    .line:active:after {
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+
+    button.ant-btn.Header-Login {
+      background-color: #6127fa;
+      color: $white;
+      width: 15rem;
+      height: 52px;
+      color: $white;
+      border-radius: 25px;
+      cursor: pointer;
+      &:hover {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:active {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:focus {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+    }
+    :hover{
+      color: #6127fa; ;
+    }
+  }
+}
