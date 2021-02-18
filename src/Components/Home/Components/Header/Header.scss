@@ -1,0 +1,240 @@
+@import "../../../../Scss/base/_colors";
+.nav{
+  height: 100px;
+  width: 100%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 60px #AFAFAF29;
+opacity: 1;
+background-color: rgba(253, 253, 253, 0.9);
+-webkit-backdrop-filter: blur(20px);
+backdrop-filter: blur(20px);
+position: fixed;
+top: 0;
+z-index: 2000;
+  .nav-header {
+    display: inline;
+
+    img {
+      width: 100px;
+      margin: 1%;
+    }
+  }
+  .nav-links {
+    display: inline;
+    float: right;
+    padding-top: 1%;
+    padding-right: 4%;
+    a.navbar-item {
+      font-weight: bold;
+      font-size: 14px;
+
+      text-decoration: none;
+      color: #777777;
+      padding: 30px 3rem;
+
+      display: inline-block;
+      position: relative;
+      opacity: 0.75;
+    }
+
+
+
+    a.navbar-item::before {
+      transition: 300ms;
+      height: 5px;
+      content: "";
+      position: absolute;
+      background-color: #6127fa;
+      border-radius: 25px;
+    }
+
+    a.navbar-item.is-active::before {
+      width: 110px;
+     display: inline;
+      bottom: 18px;
+    }
+
+    a.navbar-item.is-active:hover::before {
+      width: 70%;
+    }
+
+    button.ant-btn.Header-Login {
+      background-color: #6127fa;
+      color: $white;
+      width: 13rem;
+      height: 50px;
+      color: $white;
+      border-radius: 25px;
+      cursor: pointer;
+      &:hover {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:active {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:focus {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+    }
+ 
+  }
+  
+  
+}
+// .Headerbody-mobile {
+//   display: none;
+// }
+  @media only screen and (max-width: 75em) {
+    .nav .nav-links a.navbar-item {
+      font-weight: bold;
+      font-size: 14px;
+      text-decoration: none;
+      color: #777777;
+      padding: 30px 1.3rem;
+      display: inline-block;
+      position: relative;
+      opacity: 0.75;
+  }
+
+}
+.ant-drawer-body {
+  /* padding: 24px; */
+  padding: 0px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+
+@media only screen and (min-width: 900px) {
+  .Headerbody-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+  .Headerbody-mobile {
+    .HeaderlogoContainer {
+      text-align: center;
+      padding-top: 1rem;
+      img {
+        width: 10rem;
+      }
+    }
+    .Headerbody-icon {
+      text-align: right;
+      padding-right: 4%;
+      .anticon {
+        color: $primary;
+      }
+    }
+  }
+
+.Header-Drawer-content {
+  .Drawer-close {
+    padding-right: 10%;
+    padding-top: 12%;
+    text-align: right;
+    i.anticon.anticon-close {
+      font-size: 3rem;
+    }
+  }
+  .nav-header {
+    display: inline;
+
+    img {
+      width: 100px;
+    }
+  }
+  .Header-Drawer-content-info-setup {
+    padding-top: 8%;
+    padding-left: 12%;
+    .Header-Drawer-content-info {
+   
+      padding: 6% 0;
+      img {
+        width: 2.2rem;
+      }
+      span {
+        font-weight: 600;
+        color: #6127fa;
+        font-size: 2.1rem;
+        margin-left: 3.2rem;
+      }
+    }
+   
+  }
+  .Header-Drawer-buttons{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2%;
+    left: 10%;
+    display: flex;
+    button:nth-child(1){
+      background-color: #6127fa;
+      color: $white;
+      width: 13rem;
+      height: 38px;
+      color: $white;
+      border-radius: 25px;
+      margin-right: 2%;
+      cursor: pointer;
+      &:hover {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:active {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:focus {
+        background-color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+    }
+ 
+    button:nth-child(2){
+      background-color:#ffff;
+    
+      width: 13rem;
+      height: 38px;
+      color: #6127fa;
+      border-color: #6127fa;
+      border-radius: 25px;
+      margin-right: 2%;
+      cursor: pointer;
+      &:hover {
+        background-color:#ffff;
+        color: #6127fa;
+      border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:active {
+        background-color:#ffff;
+        color: #6127fa;
+      border-color: #6127fa;
+        box-shadow: unset;
+      }
+      &:focus {
+        background-color:#ffff;
+        color: #6127fa;
+        border-color: #6127fa;
+        box-shadow: unset;
+      }
+    }
+
+}
+}
+}

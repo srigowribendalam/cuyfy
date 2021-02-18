@@ -1,0 +1,507 @@
+.Pricing-Container {
+  overflow: hidden;
+  padding-top: 5%;
+  .Pricing-body {
+    padding: 2% 10%;
+    h1 {
+      text-align: center;
+      font-size: 3.8rem;
+      letter-spacing: 0px;
+      color: #6127fa;
+      opacity: 1;
+      font-weight: 600;
+    }
+    h5 {
+      text-align: center;
+      font-weight: 500;
+      letter-spacing: 0px;
+      color: #777777;
+      opacity: 1;
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+    .pricing-nav-tabs {
+      display: flex;
+      background: #f3f5fc 0% 0% no-repeat padding-box;
+      border: 1px solid #f3f5fc;
+      border-radius: 60px;
+      opacity: 1;
+      text-align: center;
+      width: 250px;
+      margin-top: 2%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1% 0%;
+      align-items: center;
+
+      height: 52px;
+    }
+    .active {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 60px;
+      opacity: 1;
+      height: 50px;
+      width: 52%;
+      font-weight: 600;
+      color: #6328ff;
+      text-align: center;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      align-items: center;
+      cursor: pointer;
+    }
+    .in-active {
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 4%;
+      cursor: pointer;
+      color: #777777;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    .pricing-plan-card {
+      padding: 4% 18%;
+    }
+
+    .pricing-plan-inactive {
+      float: left;
+      width: 33%;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 0px 70px #a2a1a129;
+      border-radius: 30px 0px 0px 30px;
+      opacity: 1;
+      padding: 3.2% 4%;
+      cursor: pointer;
+
+      text-align: -webkit-center;
+      opacity: 1;
+      h2 {
+        text-align: center;
+        font-size: 2.8rem;
+        letter-spacing: 0px;
+        color: #454545;
+        opacity: 1;
+        font-weight: 600;
+      }
+      h1 {
+        text-align: center;
+        font-size: 4.3rem;
+        letter-spacing: 0px;
+        color: #454545;
+        opacity: 1;
+        font-weight: 700;
+        margin-bottom: 0;
+        line-height: 1;
+        padding-top: 12%;
+      }
+      span.validate-fields {
+        color: #8b8b8b;
+        text-align: center;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 4%;
+      }
+
+      .pricing-button {
+        padding-top: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        // width: 76%;
+        button {
+          background-color: #d6c7ff;
+          border-radius: 30px;
+          height: 40px;
+          border-color: #d6c7ff;
+          font-weight: 600;
+
+          color: #6328ff;
+          &:hover {
+            background-color: #d6c7ff;
+            border-color: #d6c7ff;
+            box-shadow: unset;
+          }
+          &:active {
+            background-color: #d6c7ff;
+            border-color: #d6c7ff;
+            box-shadow: unset;
+          }
+          &:focus {
+            background-color: #d6c7ff;
+            border-color: #d6c7ff;
+            box-shadow: unset;
+          }
+        }
+        span.view {
+          text-align: center;
+          font-size: 0.9rem;
+          color: #6328ff;
+          margin-left: 4%;
+          margin-top: 4%;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .pricing-plan-active {
+      float: left;
+      position: relative;
+      width: 33%;
+      top: -20px;
+      cursor: pointer;
+      background: #6127fa;
+      border-radius: 30px;
+      text-align: center;
+      border-radius: 5px;
+      border-radius: 30px !important;
+      padding: 3.2% 4%;
+
+      text-align: -webkit-center;
+      opacity: 1;
+      float: left;
+      color: #ffff;
+      h2 {
+        text-align: center;
+        font-size: 2.8rem;
+        letter-spacing: 0px;
+        color: #ffff;
+        opacity: 1;
+        font-weight: 600;
+      }
+      h1 {
+        text-align: center;
+        font-size: 4.3rem;
+        letter-spacing: 0px;
+        color: #ffff;
+        opacity: 1;
+        font-weight: 700;
+        margin-bottom: 0;
+        line-height: 1;
+        padding-top: 17%;
+      }
+      .pricing-button {
+        padding-top: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        // width: 76%;
+        button {
+          background-color: #e0dcee 0% 0% no-repeat padding-box;
+          border-radius: 30px;
+          height: 40px;
+          border-color: #e0dcee;
+          font-weight: 600;
+          color: #6328ff;
+          &:hover {
+            background-color: #e0dcee;
+            border-color: #e0dcee;
+            box-shadow: unset;
+          }
+          &:active {
+            background-color: #e0dcee;
+            border-color: #e0dcee;
+            box-shadow: unset;
+          }
+          &:focus {
+            background-color: #e0dcee;
+            border-color: #e0dcee;
+            box-shadow: unset;
+          }
+        }
+        span.view {
+          text-align: center;
+          font-size: 0.9rem;
+          color: #ffff;
+          margin-left: 2%;
+          padding-top: 4%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .Pricing-Container .Pricing-body .pricing-plan-active {
+    float: left;
+    position: relative;
+    width: 33%;
+    top: -20px;
+    cursor: pointer;
+    background: #6127fa;
+    border-radius: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-radius: 30px !important;
+    padding: 3.2% 3%;
+    text-align: -webkit-center;
+    opacity: 1;
+    float: left;
+    color: #ffff;
+  }
+  .Pricing-Container .Pricing-body .pricing-plan-inactive {
+    float: left;
+    width: 33%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 70px #a2a1a129;
+    border-radius: 30px 0px 0px 30px;
+    opacity: 1;
+    padding: 3.2% 3%;
+    cursor: pointer;
+    text-align: -webkit-center;
+    opacity: 1;
+  }
+  .Pricing-Container .Pricing-report {
+    clear: both;
+    background: #f3f5fc 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 2.2% 7%;
+  }
+  .Pricing-Container .Pricing-Premium {
+    padding: 2.2% 7%;
+  }
+  .Pricing-Container .Pricing-Premium .Pricing-report-content-Two {
+    position: relative;
+    left: 3%;
+  }
+  .Pricing-Container .Pricing-body {
+    padding: 2% 10%;
+    padding-top: 11%;
+  }
+  .Pricing-Container .Pricing-body .pricing-plan-card {
+    padding: 7% 8%;
+  }
+}
+@media only screen and (max-width: 75em) and(min-width:56.25em) {
+  .Pricing-Container {
+    overflow: hidden;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .Pricing-Container .Pricing-body .pricing-plan-inactive {
+    float: left;
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 70px #a2a1a129;
+    border-radius: 30px 0px 0px 30px;
+    opacity: 1;
+    padding: 3.2% 3%;
+    cursor: pointer;
+    text-align: -webkit-center;
+    opacity: 1;
+  }
+  .Pricing-Container .Pricing-body .pricing-plan-active {
+    float: left;
+    position: relative;
+    width: 100%;
+    top: -20px;
+    cursor: pointer;
+    background: #6127fa;
+    border-radius: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-radius: 30px !important;
+    padding: 3.2% 3%;
+    text-align: -webkit-center;
+    opacity: 1;
+    float: left;
+    color: #ffff;
+  }
+  .Pricing-Container .Pricing-report .Pricing-report-content-Two {
+    position: unset;
+
+    /* left: 15%; */
+  }
+
+
+  .Pricing-Container .Pricing-body .pricing-nav-tabs {
+    display: flex;
+    background: #f3f5fc 0% 0% no-repeat padding-box;
+    border: 1px solid #f3f5fc;
+    border-radius: 60px;
+    opacity: 1;
+    text-align: center;
+    width: 250px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 0%;
+    align-items: center;
+    height: 52px;
+    margin-bottom: 5%;
+  }
+  .Pricing-Container .Pricing-body h1 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    color: #6127fa;
+    opacity: 1;
+    font-weight: 600;
+  }
+}
+.ant-modal.Pricing-Modal {
+  width: 55vw !important;
+  height: 50rem;
+  margin-top: 10%;
+
+  .ant-modal-content {
+    border-radius: 15px;
+    margin-top: 2rem;
+    padding: 10% 2%;
+  }
+  .Pricing-report {
+    clear: both;
+
+    opacity: 1;
+ 
+    .Pricing-report-content-one {
+      h1 {
+        font-size: 2rem;
+        color: #6328ff;
+        font-weight: 700;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+    .Pricing-report-show {
+      width: max-content;
+      position: relative;
+      right: 23%;
+      h2 {
+        font-size: 3.4rem;
+        color: #6328ff;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+      }
+      h1 {
+        font-size: 5rem;
+        color: #6328ff;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-left:5%
+      }
+      span {
+        color: #6328ff;
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        left: 22%;
+      }
+      button.ant-btn {
+        background-color: #6328ff;
+        border-radius: 30px;
+        height: 40px;
+        border-color: #6328ff;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        left: 8%;
+        margin-top: 5%;
+        span {
+          color: #ffff;
+          position: unset;
+        }
+        &:hover {
+          background-color: #6328ff;
+          border-color: #6328ff;
+          box-shadow: unset;
+        }
+        &:active {
+          background-color: #6328ff;
+          border-color: #6328ff;
+          box-shadow: unset;
+        }
+        &:focus {
+          background-color: #6328ff;
+          border-color: #6328ff;
+          box-shadow: unset;
+        }
+      }
+    }
+   
+
+  }
+  .Pricing-Premium {
+    opacity: 1;
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #6328ff;
+      font-weight: 700;
+      text-align: left;
+    }
+    .Pricing-report-content-one {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+    .Pricing-report-show {
+      width: max-content;
+      position: relative;
+      right: 23%;
+      margin-top: -30%;
+      h2 {
+        font-size: 3.4rem;
+        color: #6328ff;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 0;
+      }
+      h1 {
+        font-size: 5rem;
+        color: #6328ff;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-left:5%
+      }
+      span {
+        color: #6328ff;
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        left: 22%;
+      }
+      button.ant-btn {
+        background-color: #6328ff;
+        border-radius: 30px;
+        height: 40px;
+        border-color: #6328ff;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        left: 8%;
+        margin-top: 5%;
+        span {
+          color: #ffff;
+          position: unset;
+        }
+        &:hover {
+          background-color: #6328ff;
+          border-color: #6328ff;
+          box-shadow: unset;
+        }
+        &:active {
+          background-color: #6328ff;
+          border-color: #6328ff;
+          box-shadow: unset;
+        }
+        &:focus {
+          background-color: #6328ff;
+          border-color: #6328ff;
+          box-shadow: unset;
+        }
+      }
+    }
+  }
+}

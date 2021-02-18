@@ -1,0 +1,145 @@
+@import "../../../../Scss/base/_colors";
+
+.footer {
+  background-color: #6127FA;
+  padding: 2% 5% 1% 5%;
+  z-index: 1;
+.footer-Logo{
+  margin-top: -8%;
+  img{
+ width: 80%;
+  }
+}
+i.anticon.anticon-linkedin {
+  /* background: white; */
+  margin: 1.6rem;
+  font-size: 41px;
+  color: white;
+}
+
+i.anticon.anticon-instagram {
+  margin: 1.6rem;
+  font-size: 41px;
+  color: white;
+}
+
+i.anticon.anticon-facebook {
+  margin: 1.6rem;
+  font-size: 41px;
+  color: white;
+}
+i.anticon.anticon-twitter {
+  margin: 1.6rem;
+  font-size: 41px;
+  color: white;
+}
+  @mixin second-thrid-column {
+    margin-top: 2rem;
+    h2 {
+      color: $white;
+      font-weight: 600;
+      font-size: 1.6rem;
+    }
+    h3 {
+      color: $white;
+      font-weight: 300;
+      font-size: 1.4rem;
+    }
+  }
+  img {
+    margin: 2rem 0;
+  }
+  .footer-columnone {
+    margin-top: 2rem;
+    h2 {
+      color: $white;
+      font-weight: 600;
+      font-size: 1.6rem;
+    }
+    h3 {
+      color: $white;
+      font-size: 1.6rem;
+      font-weight: 400;
+      span {
+        font-weight: 300;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .footer-columnTwo, .footer-columnThree {
+    @include second-thrid-column;
+  }
+  .footer-columnTwo-2, .footer-columnThree-3 {
+    display: none;
+  }
+  hr {
+margin-top: 1%;
+margin-bottom: 2%;
+  }
+  .Footer-second-row {
+    .footer-columns {
+      h3 {
+        color: $white;
+        font-size: 1.6rem;
+        font-weight: 600;
+      }
+      h5 {
+        color: $white;
+        font-size: 1.4rem;
+        font-weight: 300;
+      }
+    }
+  }
+  .footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h5 {
+      color: $white;
+      font-size: 1rem;
+      font-weight: 400;
+   
+    }
+  }
+
+  .social-media{
+    display: flex;
+    flex-direction: column;
+    background-color: #B77FFF;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    left: 33%;
+   margin-top: -26%;
+    img{
+    
+      margin-top: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: 640px) {
+  .footer .social-media {
+     display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    background-color:unset;
+    align-items: center;
+     width: 100%; 
+    position: unset;
+    /* left: 33%; */
+     margin-top: unset;
+     margin: 6% 0%;
+}
+.footer .footer-Logo img {
+  width: 33rem;
+  margin-right: 10%
+}
+.footer .footer-Logo {
+  margin-top: -8%;
+  text-align: center;
+}
+.footer .footer-columnone {
+  /* margin-top: 2rem; */
+  margin-top: -15%;
+}
+}
